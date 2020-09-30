@@ -1,0 +1,32 @@
+{
+  "name": "egg-init-template",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "start": "egg-scripts start --daemon --title=egg-init-template",
+    "start:docker": "egg-scripts start --title=egg-init-template",
+    "stop": "egg-scripts stop --title=egg-init-template",
+    "lint": "eslint ."
+  },
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "luojiajun@3ncto.com",
+  "license": "MIT",
+  "_moduleAliases": {
+    "@root": ".",
+    "@app": "app"
+  },
+  "dependencies": {
+    "egg": "^2.28.0",
+    "egg-cors": "^2.2.3",
+    "egg-scripts": "^2.13.0",
+    "egg-validate": "^2.0.2",
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "egg-bin": "^4.15.0",
+    "eslint": "^7.9.0",
+    "eslint-config-egg": "^8.1.2"
+  }
+}
